@@ -1,0 +1,419 @@
+body{
+transition: 0.5s;
+}
+
+/* Css for Section Nav menu */
+.navbar-default {
+     background-color: transparent;
+     border-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a{
+background-color: #1bbc9b;
+}
+.navbar-brand {
+width: 300px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-family: Lato-Regular;
+    font-size:14px;
+    margin-top: 20px;
+	padding: 9px 17px;
+	transition: 0.5s;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #1bbc9b;
+}
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    background-color: #16a086;
+    border-color: #16a086;
+}
+.btn-primary:active:focus, .btn-primary:active:hover ,.btn-primary:hover ,.btn-primary:focus{
+    background-color: #16a086;
+    border-color: #16a086;
+	}
+
+#navigation-menu h4{
+ font-family: Lato-Bold;
+    font-size:20px;
+    margin-left: 60px;
+	margin-top: 16px;
+
+	line-height: 0;
+}
+#navigation-menu small{
+    font-family: Lato-Regular;
+    font-size:14px;
+    margin-left: 12px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+ border-color: transparent;
+}
+
+/* Css for Section Showcase */
+
+.jumbotron {
+    background:url(../images/showcase.jpg);
+	background-size: 100% 100%;
+	border-radius: 0px !important;
+	color:#fff;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.jumbotron p{
+font-family: Lato Light !important;
+font-weight: lighter;
+max-width:615px;
+margin:0 auto;
+font-size: 18px;
+margin-bottom: 50px;
+}
+.jumbotron h1{
+font-family: Lato Light !important;
+font-weight: lighter;
+font-size: 55px;
+font-weight: inherit;
+margin-bottom: 45px;
+}
+.jumbotron span{
+font-family: Lato-Bold;
+}
+.jumbotron a{
+font-family: Lato-Bold;
+font-size:13pt;
+margin-bottom: 40px;
+}
+.jumbotron i{
+color:#fff;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 6px 25px;
+    border-radius: 0px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1bbc9b;
+    border-color: #1bbc9b;
+	transition: 0.5s;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #16a086;
+    border-color: #16a086;
+}
+.fa{
+font-size: 50px;
+}
+/* Css for Section Portfolio */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* ---- button ---- */
+
+.button {
+  font-family: Lato-Bold;
+  display: inline-block;
+  border:none;
+  padding: 0.6em 1.0em;
+  background: #1bbc9b;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  outline:none;
+  margin:40px 0;
+}
+
+.button:hover {
+  background-color: #16a086;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #16a086;
+}
+
+.button.is-checked {
+  color: white;
+}
+
+/* ---- button-group ---- */
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+/* ---- isotope ---- */
+
+/* clear fix */
+.isotope:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  margin-bottom:35px;
+  overflow:hidden;
+}
+
+.element-item img{
+  width: 180px;
+  height: 180px;
+  border-radius:50%;
+  cursor:pointer;
+}
+
+/* End Isotope */
+#portfolio h2{
+font-family: Lato-Regular;
+font-size:28px;
+color:#444444;
+}
+#portfolio p{
+font-family: Lato-Regular;
+font-size:16px;
+color:#444444;
+}
+
+.portfolio-overlay{
+position:absolute;
+background:rgba(22,160,134,.6);
+  width: 180px;
+  height: 180px;
+  border-radius:50%;
+  top:-100%;
+  left:18%;
+  transition:0.4s;
+  cursor:pointer;
+  color:#fff;
+}
+.portfolio-overlay  h4{
+font-family: Lato-Regular;
+font-size:18px;
+}
+.portfolio-overlay  p{
+font-family: Lato-Regular !important;
+font-size:14px!important;
+color:#fff!important;
+}
+.portfolio-overlay i{
+font-size:21px;
+background:rgba(68,68,68,.7);
+ width: 45px;
+ height: 45px;
+ border-radius:50%;
+ cursor:pointer;
+ margin-top:30px;
+ margin-bottom:9px;
+ padding-top:12px;
+ color:#fff;
+}
+.element-item:hover .portfolio-overlay{
+top:0;
+}
+
+/* Css for Section  About Us */
+#about-us .container {
+background:#16a086;
+}
+#about-us h2{
+margin-top:60px;
+margin-bottom:12px;
+color:#fff;
+font-family: Lato-Regular;
+font-size:28px;
+}
+#about-us small{
+color:#fff;
+font-size:14px;
+font-family: Lato-Regular;
+}
+#about-us p{
+font-family: Lato-Regular;
+font-size:14pt;
+margin:0 auto;
+margin-bottom:16px;
+max-width:195px;
+font-size:14px;
+}
+#about-us h3{
+font-family: Lato-Regular;
+font-size:18pt;
+color:#444444;
+margin-bottom:5px;
+font-size:20px;
+}
+#about-us h5{
+font-family: Lato-Italic;
+font-size:14pt;
+margin:0 auto;
+margin-bottom:16px;
+max-width:195px;
+font-size:14px;
+}
+#about-us .container .container{
+margin-top:45px;
+margin-bottom:70px;
+width: 87%;
+overflow:hidden;
+}
+#about-us .about-wrapper{
+margin:0 auto;
+}
+.about-wrapper{
+ width:220px;
+ background:#fff;
+ overflow:hidden;
+ cursor:pointer;
+ overflow:hidden;
+}
+
+.about-overlay{
+position:absolute;
+background:rgba(22,160,134,.7);
+  width: 180px;
+  height: 50px;
+  right:22%;
+  top:-13%;
+  transition:0.4s;
+  cursor:pointer;
+  color:#fff;
+}
+.about-overlay i{
+font-size:29px;
+color:#fff;
+padding: 11px 7px;
+}
+.about-wrapper:hover .about-overlay{
+    top:22%;
+}
+               /* Css for Section  Contact Us */
+
+#Contact-us .container{
+background:#ecf0f1;
+overflow:hidden;
+padding-top:30px;
+padding-bottom:50px;
+padding-right:40px;
+padding-left:40px;
+}
+			   
+.form-control {
+border-radius:0;
+padding: 23px 12px;
+margin-bottom: 22px;
+border: 2px solid #ccc;
+}
+.form-control:focus {
+    border-color: #1bbc9b;
+}
+.adres{}
+.adres address{
+font-family: Lato-Regular;
+font-size:14px;
+text-align:left;
+}
+.form-inline{
+width:100%;
+}
+#exampleInputName2{
+width:263px;
+margin-right:20px;
+}
+#exampleInputEmail2{
+width:243px;
+}
+
+
+#Contact-us .btn{
+font-family: Lato-Bold;
+font-size:13px !important;
+    padding: 6px 25px;
+    border-radius: 0px;
+	font-size:14px;
+}
+
+#Contact-us h2{
+font-family: Lato-Regular;
+font-size:28px;
+color:#444444;
+    margin-bottom:15px;
+}
+#Contact-us h3{
+font-family: Lato-Regular;
+font-size:14pt;
+font-size:15px;
+margin-top:0px;
+margin-bottom:15px;
+text-align:left;
+}
+
+#Contact-us p{
+font-family: Lato-Regular;
+font-size:14px;
+color:#444444;
+margin-bottom:50px;
+}
+#Contact-us input{
+font-family:Lato-Italic;
+}
+#Contact-us textarea{
+font-family:Lato-Italic;
+color:#999999 !important;
+}
+
+#Contact-us .btn-default {
+    color: #fff;
+    background-color: #1bbc9b;
+    border-color: #1bbc9b;
+	transition: 0.5s;
+}
+#Contact-us .btn-default:hover {
+    color: #fff;
+    background-color: #16a086;
+    border-color: #16a086;
+}
+
+.adres .fa {
+font-size: 14px;
+}
+      /* Css for Section  map */
+
+#map .container{
+padding:0;
+height:350px;
+
+}
+
+       /* Css for Section  Footer */
+#footer .container{
+background:#2d3e50;
+}
+#footer p{
+font-family: Lato-Regular;
+font-size:14px;
+color:#fff;
+margin: 37px;
+}
+.scrollUpButton .fa {
+font-size: 20px;
+}
